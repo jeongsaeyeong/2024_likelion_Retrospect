@@ -4,7 +4,7 @@ import Back from '../../assets/img/Back.svg'
 import NavBtn from '../../assets/img/Nav.svg'
 import Nav from './Nav'
 
-const Header = ({ page }) => {
+const Header = ({ page, back, setClick }) => {
     const [show, setShow] = useState(false);
     const [title, setTitle] = useState('');
     const naviagtion = useNavigate();
@@ -23,7 +23,7 @@ const Header = ({ page }) => {
         <div className='Header_wrap'>
             {page ? (
                 <>
-                    <img src={Back} onClick={() => { onBack() }} alt="Back button" />
+                    <img src={Back} onClick={() => { back ? setClick({ title: '', description: '' }) : onBack() }} alt="Back button" />
                     <h1>{title}</h1>
                     <img onClick={() => { setShow(true) }} src={NavBtn} alt="Nav button" />
                 </>
