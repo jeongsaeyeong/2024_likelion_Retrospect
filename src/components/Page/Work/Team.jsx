@@ -1,9 +1,23 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import NextBtn from '../../../assets/img/Next.svg'
 import { Link } from 'react-router-dom'
+import { DemoDay, JungAng, ETC } from './work'
 
 const Team = ({ click }) => {
-    const list = ['수정대동제', 'PoPo', '친환경어쩌고', 'Project Title', 'Project Title', 'Project Title']
+    const [list, setList] = useState([])
+
+    useEffect(() => {
+        if (click.title === 'Hackerthon') {
+            const names = JungAng.map((item) => item.name);
+            setList(names);
+        } else if (click.title === 'Demo-Day'){
+            const names = DemoDay.map((item) => item.name);
+            setList(names);
+        } else {
+            const names = ETC.map((item) => item.name);
+            setList(names);
+        }
+    }, [click]);
 
     return (
         <>
