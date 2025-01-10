@@ -5,10 +5,10 @@ export const peopleData = [
             { name: "김현수", role: "대표", team: "BE", department: "컴퓨터공학과" },
             { name: "송지연", role: "부대표", team: "PM*DE", department: "서비스디자인공학과" },
             { name: "권하영", role: "파트장", team: "PM*DE", department: "서비스디자인공학과" },
-            { name: "서지우", role: "파트장", team: "BE", department: "AI 융합학부" },
+            { name: "이예령", role: "파트장", team: "BE", department: "컴퓨터공학과" },
             { name: "우지윤", role: "파트장", team: "FE", department: "AI 융합학부" },
             { name: "박예인", role: "운영진", team: "FE", department: "AI 융합학부" },
-            { name: "이예령", role: "운영진", team: "BE", department: "컴퓨터공학과" },
+            { name: "서지우", role: "운영진", team: "BE", department: "AI 융합학부" },
             { name: "이현진", role: "운영진", team: "FE", department: "AI 융합학부" },
             { name: "정새영", role: "운영진", team: "FE", department: "미디어커뮤니케이션" },
         ]

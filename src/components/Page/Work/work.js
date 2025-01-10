@@ -62,22 +62,37 @@ export const JungAng = [
             { name: "조수빈", department: "컴퓨터공학과", role: "BE" },
         ]
     },
+    {
+        name: "PoPo",
+        img: JungAng01,
+        description: "나만의 폴라로이드 포포는 성신여대 12기 운영진이 만든 서비스로 중앙 해커톤에서 함께했던 팀원들과 소중한 추억을 쌓을 수 있는 서비스입니다. ",
+        contributors: [
+            { name: "김복민", department: "의류산업학과", role: "PM*DE" },
+            { name: "강신영", department: "AI융합학부", role: "FE" },
+            { name: "김정은", department: "서비스디자인공학과", role: "FE" },
+            { name: "박유채", department: "서비스디자인공학과", role: "FE" },
+            { name: "박해름", department: "AI융합학부", role: "BE" },
+            { name: "조수빈", department: "컴퓨터공학과", role: "BE" },
+        ]
+    },
 ]
 
 export const ETC = [
     {
         name: "수정대동제",
-        description: "2024년 수정대동제 공식 홈페이지 입니다.",
+        description: "2024년 성신여자대학교 수정대동제를 맞아 ‘성신여대 멋쟁이사자처럼 12기’는 총학생회 축제기획단과 협력하여 Eternal이라는 통합 웹서비스를 개발하였습니다. ",
         contributors: [
             { name: "송지연(서디공)", department: "서비스디자인공학과", role: "PM*DE" },
-            { name: "강신영", department: "AI융합학부", role: "FE" },
-            { name: "김정은", department: "서비스디자인공학과", role: "FE" },
+            { name: "김현수", department: "컴퓨터공학과", role: "BE" },
+            { name: "이예령", department: "컴퓨터공학과", role: "BE" },
+            { name: "서지우", department: "컴퓨터공학과", role: "BE" },
+            { name: "박예인", department: "AI융합학부", role: "FE" },
+            { name: "우지윤", department: "AI융합학부", role: "FE" },
+            { name: "이현진", department: "AI융합학부", role: "FE" },
+            { name: "정새영", department: "미디어커뮤니케이션학과", role: "FE" },
+            { name: "최수진", department: "컴퓨터공학과", role: "FE" },
             { name: "박유채", department: "서비스디자인공학과", role: "FE" },
-            { name: "김현수", department: "AI융합학부", role: "BE" },
-            { name: "박예인", department: "컴퓨터공학과", role: "BE" },
-            { name: "우지윤", department: "컴퓨터공학과", role: "BE" },
-            { name: "이현진", department: "컴퓨터공학과", role: "BE" },
-            { name: "정새영", department: "컴퓨터공학과", role: "BE" },
+            { name: "강신영", department: "AI융합학부", role: "FE" },
         ]
     },
 ]
