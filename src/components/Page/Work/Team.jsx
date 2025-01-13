@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import NextBtn from '../../../assets/img/Next.svg'
 import { Link } from 'react-router-dom'
-import { DemoDay, JungAng, ETC } from './work'
+import { DemoDay, JungAng, ETC } from './workitem'
 
 const Team = ({ click }) => {
     const [list, setList] = useState([])

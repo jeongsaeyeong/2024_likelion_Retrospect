@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Header from '../../Section/Header';
 import { useParams } from 'react-router-dom';
-import { DemoDay, JungAng, ETC } from './work';
+import { DemoDay, JungAng, ETC } from './workitem';
 
 const Detail = () => {
     const [data, setData] = useState(null); 

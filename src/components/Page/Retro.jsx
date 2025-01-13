@@ -39,7 +39,14 @@ const Retro = () => {
                     {list.map((item, key) => (
                         <div className={`list ${key === list.length - 1 ? 'last' : ''}`} key={key}>
                             <h4>{item.title}</h4>
-                            <p>{item.say}</p>
+                            <p>
+                                {item.say.split('\n').map((line, index) => (
+                                    <React.Fragment key={index}>
+                                        {line}
+                                        <br />
+                                    </React.Fragment>
+                                ))}
+                            </p>
                         </div>
                     ))}
                 </div>

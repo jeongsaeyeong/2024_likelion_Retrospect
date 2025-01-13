@@ -3,6 +3,7 @@ import Demo02 from '../../../assets/img/BigImg/Soulmate.png'
 import Demo03 from '../../../assets/img/BigImg/JoinUp.png'
 import Demo04 from '../../../assets/img/BigImg/CinePiek.jpg'
 import JungAng01 from '../../../assets/img/BigImg/JungAng01.jpg'
+import Eternal from '../../../assets/img/BigImg/Eternal.png'
 
 export const DemoDay = [
     {
@@ -80,6 +81,7 @@ export const JungAng = [
 export const ETC = [
     {
         name: "수정대동제",
+        img: Eternal,
         description: "2024년 성신여자대학교 수정대동제를 맞아 ‘성신여대 멋쟁이사자처럼 12기’는 총학생회 축제기획단과 협력하여 Eternal이라는 통합 웹서비스를 개발하였습니다. ",
         contributors: [
             { name: "송지연(서디공)", department: "서비스디자인공학과", role: "PM*DE" },
